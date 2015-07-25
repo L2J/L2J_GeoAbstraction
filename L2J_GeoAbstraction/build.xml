@@ -11,7 +11,7 @@
 		<mkdir dir="${basedir}/build/dist"/>
 		
 		<!-- Compile sourcecode -->
-		<javac srcdir="${basedir}/src" destdir="${basedir}/build/bin" compiler="javac1.7" debug="on" debuglevel="lines,vars,source" includeantruntime="off" source="1.7" target="1.7"/>
+		<javac srcdir="${basedir}/src" destdir="${basedir}/build/bin" compiler="javac1.8" debug="on" debuglevel="lines,vars,source" includeantruntime="off" source="1.8" target="1.8"/>
 
 		<!-- Create jar file -->
 		<jar destfile="${basedir}/build/dist/${ant.project.name}.jar" level="9">
